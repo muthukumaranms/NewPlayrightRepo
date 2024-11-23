@@ -29,7 +29,6 @@ test('has title', async ({ page }) => {
     // Attach the listeners
   // page.on('request', requestListener);
   // page.on('response', responseListener);
-  // Emergency Branch
   // new-test-branch
   // new-test-branch
   page.on('request', async (request) => {
