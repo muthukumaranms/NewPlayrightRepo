@@ -12,6 +12,7 @@ test('has title', async ({ page }) => {
   await page.locator("#ps_year").fill('1992')
   await page.locator("(//*[normalize-space()='Continue as a guest'])[2]").click({force: true});
 
+  // added in browser
     // Define the listener functions
     const requestListener = (request) => {
       const url = request.url();
